@@ -2,8 +2,8 @@
 #include <string.h>
 
 typedef struct {
-    char estado[3];
-    char codigo[5];
+    char estado[10];
+    char codigo[12];
     char nome[50];
     unsigned long int populacao;
     float area;
